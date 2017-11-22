@@ -15,7 +15,7 @@
       <th>Marque</th>
     </thead>
     <!--On trie le tableau par ordre alphabétique-->
-    <tr ng-repeat="phone in phones | orderBy:''">
+    <tr ng-repeat="phone in phones | orderBy:'phoneModel'">
       <td>
         {{phone.phoneModel}}
       </td>
